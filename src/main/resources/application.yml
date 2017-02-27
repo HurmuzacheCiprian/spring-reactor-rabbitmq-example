@@ -1,0 +1,10 @@
+server:
+  port: 8095
+spring:
+  rabbitmq:
+          host: 192.168.99.101
+          port: 5672
+          username: guest
+          password: guest
+          listener:
+            prefetch: 10
